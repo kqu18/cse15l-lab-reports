@@ -13,5 +13,5 @@ In this tutorial, we will be providing a step-by-step guide on how to connect to
 
 1. Go to Visual Studio Code's [official website](https://code.visualstudio.com/) and download the environment that suits your working environment (e.g. MacOS, Windows, Linux, etc.)
 
-2. Launch Visual Studio Code (you should see the welcome page)
+2. Launch Visual Studio Code (you should see the welcome page)![Screenshot](screenshot.png)
 3.
