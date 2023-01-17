@@ -49,7 +49,7 @@ In this tutorial, we will be providing a step-by-step guide on how to connect to
 ![Screen Shot 2023-01-16 at 5 39 18 PM](https://user-images.githubusercontent.com/104349171/212791083-e3b3bfb9-1bf5-47ab-bd13-9affae4c114d.jpg)
 
 
-##Step 3: Trying Some Commands
+## Step 3: Trying Some Commands
 
 Here are some great examples of terminal commads to try ([reference](https://ucsd-cse15l-w23.github.io/week/week1/#part-5--run-some-commands)):
 
