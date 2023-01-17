@@ -28,11 +28,44 @@ In this tutorial, we will be providing a step-by-step guide on how to connect to
 
 4. Find your CSE 15L Student Code. You can look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php). Here is the tutorial on how to [reset your password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit) 
 
-***
+## Step 2: Remotely Connecting
   
-6. Go to your terminal. Type `ssh *YOUR_ACCOUNT*@ieng6.ucsd.edu` (e.g. `ssh cs15lwi23zz@ieng6.ucsd.edu`)
+1. Go to your terminal. Type `ssh *YOUR_ACCOUNT*@ieng6.ucsd.edu` (e.g. `ssh cs15lwi23zz@ieng6.ucsd.edu`)
 
-***
+2. The server will ask for your password by showing `Password: `. Enter the password (note that what you enter will not be present on screen) 
 
-7. The server will ask for your password by showing `Password: `. Enter the password (note that what you enter will not be present on screen) 
+3. If successful, you will see this message: 
 
+
+  `The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
+  RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+  This key is not known by any other names
+  Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+  Please type 'yes', 'no' or the fingerprint: `
+
+  Type `yes` to continue. 
+
+4. You are logged in successfully if you see this message:
+![Screen Shot 2023-01-16 at 5 39 18 PM](https://user-images.githubusercontent.com/104349171/212791083-e3b3bfb9-1bf5-47ab-bd13-9affae4c114d.jpg)
+
+
+##Step 3: Trying Some Commands
+
+Here are some great examples of terminal commads to try ([reference](https://ucsd-cse15l-w23.github.io/week/week1/#part-5--run-some-commands)):
+
+
+`cd ~`
+
+`cd ..`
+
+`cd`
+
+`ls -lat`
+
+`ls -a`
+
+`ls <directory>` (where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username)
+  
+`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+  
+`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
