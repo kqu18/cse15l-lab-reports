@@ -45,7 +45,7 @@ In this tutorial, we will be providing a step-by-step guide on how to connect to
 
 4. Type `yes` to continue. 
 
-4. You are logged in successfully if you see this message:
+5. You are logged in successfully if you see this message:
 ![Screen Shot 2023-01-16 at 5 39 18 PM](https://user-images.githubusercontent.com/104349171/212791083-e3b3bfb9-1bf5-47ab-bd13-9affae4c114d.jpg)
 
 
