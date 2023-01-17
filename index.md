@@ -69,3 +69,8 @@ Here are some great examples of terminal commads to try ([reference](https://ucs
 `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
   
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+  
+  example:
+  ![Screen Shot 2023-01-16 at 5 46 08 PM](https://user-images.githubusercontent.com/104349171/212791788-aabe9cc5-61ee-4af5-a209-d4f80a910e0f.jpg)
+
+  
