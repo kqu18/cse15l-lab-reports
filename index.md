@@ -56,11 +56,19 @@ Here are some great examples of terminal commads to try ([reference](https://ucs
 
 `cd ~`
 
+this line takes you to the home directory. You can check this by entering `pwd`.
+
 `cd ..`
+
+this line enables you to go to the previous level. 
 
 `cd`
 
+this stands for change directory. 
+
 `ls -lat`
+
+this provides a detailed list of files with descriptions and time stamps. 
 
 `ls -a`
 
@@ -68,8 +76,11 @@ Here are some great examples of terminal commads to try ([reference](https://ucs
   
 `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
   
+  cp stands for copying.
+  
 `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
   
+  cat creates a new file.
   example:
   ![Screen Shot 2023-01-16 at 5 46 08 PM](https://user-images.githubusercontent.com/104349171/212791788-aabe9cc5-61ee-4af5-a209-d4f80a910e0f.jpg)
 
