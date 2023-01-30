@@ -78,7 +78,9 @@ The following changes have been made to the original code to fix bugs:
 
 ![image](https://user-images.githubusercontent.com/104349171/215607788-bc53c80e-e49c-4376-a756-dd4b05c4c9cf.png)
 
-for reverseInPlace, 
+for reverseInPlace, the original loop looped through the whole array when swapping, so the numbers are reversed twice, switching back to their original positions. I have made the loop go through half the array, so the first half will be swapped with the second part of the array.
+
+for reverse, the original assignment swaps new array with the old one, resulting in unsuccessful swaps, since the new array is empty before the first swap. Simply swapping the placement of the two variables will fix the code. 
 
 **part 3**
 
