@@ -1,4 +1,4 @@
-**part 1**
+# **part 1**
 
 The code for my String Server is attached below:
 ![image](https://user-images.githubusercontent.com/104349171/215583897-14360aac-581b-4eee-9655-8c08337d9d16.png)
@@ -33,7 +33,7 @@ So we now made changes to the initial string value and we have:
 "another_String"` in the webpage.
 
 
-**part 2**
+# **part 2**
 
 Junit code that tests for bugs for ArrayExamples.java:
 
@@ -82,7 +82,7 @@ for `reverseInPlace`, the original loop looped through the whole array when swap
 
 for `reverse`, the original assignment swaps new array with the old one, resulting in unsuccessful swaps, since the new array is empty before the first swap. Simply swapping the placement of the two variables will fix the code. 
 
-**part 3**
+# **part 3**
 
 Something I learned in this week's lab is how to properly use JUnit 4 for asserting code. What I did not know before is how to assert whether two doubles are equal. It turned out that 
 we need to add an extra parameter *Delta* after the assertion to specify the precision, or the gap between the two doubles.
