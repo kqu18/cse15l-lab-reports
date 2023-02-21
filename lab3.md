@@ -20,7 +20,7 @@ we will now use /written2 (class provided file path, [Link](https://github.com/u
 
 ## **grep -r**
 
-`-r`, which stands for 'recursion', is a useful command which allows us to search through all files recursively, looking for elements in files. 
+`-r`, which stands for 'recursion', is a useful command which allows us to search through all files recursively, looking for elements in files. This means that the search not only look for the keyword in the specified directory but also in all subdirectories and their contents.
 For example, we can use `grep -r "Lucayans"` to find the file where the word *Lucayans* have appeared. 
 
 ```
@@ -35,13 +35,17 @@ For example, we can use `grep -r "Lucayans"` to find the file where the word *Lu
 
 ```
 
-Note that if we only want the file information but not te specific occurences, we can simply use `-rl` instead: 
+Note that if we only want the file information but not te specific occurences, we can simply use `-rl` instead (-l is used to display only the filenames of the files that contain the search pattern, rather than the actual matching lines): 
 
 ```
 # grep -rl demo
 
->> grep -rl "Lucayans"
-
+>> grep -rl "Bahamas" 
+./travel_guides/berlitz1/WhatToFWI.txt
+./travel_guides/berlitz2/Bahamas-WhereToGo.txt
+./travel_guides/berlitz2/Canada-WhereToGo.txt
+./travel_guides/berlitz2/Bahamas-Intro.txt
+./travel_guides/berlitz2/Bahamas-WhatToDo.txt
 ./travel_guides/berlitz2/Bahamas-History.txt
 
 ```
@@ -72,6 +76,27 @@ therefore we can use `grep -ril`: (i stands for ignore case)
 ```
 and we have found the desired occurence. 
 
+```
+#ignore case another example, no result if -i is not used
+
+>> grep -ril grep -ril "napoleonic"
+./non-fiction/OUP/Kauffman/ch3.txt
+./travel_guides/berlitz1/HistoryItaly.txt
+./travel_guides/berlitz1/HistoryFrance.txt
+./travel_guides/berlitz1/HistoryMallorca.txt
+./travel_guides/berlitz1/WhereToItaly.txt
+./travel_guides/berlitz1/WhereToFrance.txt
+./travel_guides/berlitz2/Berlin-WhereToGo.txt
+./travel_guides/berlitz2/Costa-History.txt
+./travel_guides/berlitz2/Bahamas-WhereToGo.txt
+./travel_guides/berlitz2/Bali-History.txt
+./travel_guides/berlitz2/Canada-WhereToGo.txt
+./travel_guides/berlitz2/California-History.txt
+./travel_guides/berlitz2/CostaBlanca-History.txt
+./travel_guides/berlitz2/Cuba-WhereToGo.txt
+
+```
+
 ---
 
 ## **grep -w**
@@ -89,14 +114,27 @@ for eaxample, if we want to look for all occurences for keyword "Lucayan", we ca
 
 ```
 
-However, sometimes we only want exact matches, not just words that include "lucayan". For example, we only want "lucayan", but not "lucayans". 
+However, sometimes we only want exact matches, not just words that include "lucayan". For example, we only want "luca", but not "lucayans". 
 What should we do? We can use -w to help us:
 ```
->> grep -rilw "lucayans"
+>> grep -rlw "Luca"
+./travel_guides/berlitz1/WhereToItaly.txt
 
-./travel_guides/berlitz2/Bahamas-History.txt
 ```
-Now we have achieve exact match searching.
+Now we have achieve exact match searching. Meanewhil, if we use search without -w, all occurences with words that contain "luca" will be shown. 
+
+```
+>> grep -rl "Luca"  
+./non-fiction/OUP/Castro/chB.txt
+./travel_guides/berlitz1/WhereToItaly.txt
+./travel_guides/berlitz1/WhereToFrance.txt
+./travel_guides/berlitz2/Berlin-WhereToGo.txt
+./travel_guides/berlitz2/Bahamas-WhereToGo.txt
+./travel_guides/berlitz2/Bahamas-Intro.txt
+./travel_guides/berlitz2/Bahamas-WhatToDo.txt
+./travel_guides/berlitz2/Bahamas-History.txt
+
+```
 
 
 ---
