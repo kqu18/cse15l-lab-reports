@@ -54,7 +54,7 @@ change directory to lab7. I used cd l<tab> to locate lab7.
   ![image](https://user-images.githubusercontent.com/104349171/221973691-1e14b6dd-933f-4088-b43a-e0ec207c8b44.png)
 
   
-  Then i pressed up 3 times and enter to run code for conmpiling. Again, i pressed up three times and enter to run the code. 
+  Then i pressed `up` 3 times and `enter` to run code for conmpiling. Again, i pressed `up` three times and `enter` to run the code. 
   
   Now the code should run properly. 
   
