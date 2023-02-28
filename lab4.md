@@ -22,29 +22,43 @@ make sure you're selecting ssh, click copy after the link.
 
 ![image](https://user-images.githubusercontent.com/104349171/221969640-ef7eb908-746c-47ac-8c0d-1dd15316db4a.png)
 
-go to your terminal, enter `git clone` and use <Command + V> to paste ssh link. 
+go to your terminal, enter `git clone` and use `Command + V` to paste ssh link. 
 
 ![image](https://user-images.githubusercontent.com/104349171/221970446-ee550456-34b4-489e-b443-d12b7b248a2d.png)
 
 change directory to lab7. I used cd l<tab> to locate lab7.
   
+  ---
+  
+ ## Step 6: Run the tests, demonstrating that they fail
+  
+  ![image](https://user-images.githubusercontent.com/104349171/221974814-da629d72-3512-4847-878b-9750341563f8.png)
+
+  I copied commands from the class website. 
+  
+  ## Step 7: Edit the code file to fix the failing test
+  
   ![image](https://user-images.githubusercontent.com/104349171/221971681-c5caa83a-3de4-494b-ad2e-499c05f69fe5.png)
 
-  next, use `nano` and L <tab> so ListExamples shows up. fill the .java and press < enter >.
+  next, use `nano` and L `tab` so ListExamples shows up. fill the .java and press ` enter `.
   
   ![image](https://user-images.githubusercontent.com/104349171/221972282-8f41fd6f-df84-4002-86ab-fb300c176030.png)
 
   
   next, I used my arrow keys to locate the error, and fixed it. 
   
-  Then, press <ctrl + X> to quit. Press <Y>, and then <Enter> to save and quit. 
+  Then, press `ctrl + X` to quit. Press `Y`, and then `Enter` to save and quit. 
+  
+  ## Step 8: Run the tests, demonstrating that they now succeed
   
   ![image](https://user-images.githubusercontent.com/104349171/221973691-1e14b6dd-933f-4088-b43a-e0ec207c8b44.png)
 
   
-  Then i pressed <up> 3 times and <enter> to run code for conmpiling. Again, i pressed <up> three times and <enter> to run the code. 
+  Then i pressed up 3 times and enter to run code for conmpiling. Again, i pressed up three times and enter to run the code. 
   
   Now the code should run properly. 
+  
+  ## Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
   
   ![image](https://user-images.githubusercontent.com/104349171/221974215-e0ca5dc5-241c-4a37-aea1-545b652e4dab.png)
 
