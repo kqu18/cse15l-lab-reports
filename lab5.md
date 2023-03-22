@@ -121,3 +121,21 @@ drwxr-s--- 3 cs15lwi23ahh ieng6_cs15lwi23 4.0K Jan 19 13:11 wavelet
 
 We can see that the file size's unit became k, which stands for kilobits. We can also see the total size of all files. For example, we can see "total 28k". 
 
+## ls -Q/-m
+
+This is a command more for formatting purposes, but one could definitely see it being useful when we want to extract files in a separator, for example, when we want to put these file names in to a csv file. 
+
+```
+[cs15lwi23ahh@ieng6-201]:~:410$ ls -Q
+"grader-skill-demo2"  "nano.save"      "perl5"             "skill-demo1-server"
+"lab7"                "path-examples"  "skill-demo1-data"  "wavelet"
+
+[cs15lwi23ahh@ieng6-201]:~:408$ ls -m
+grader-skill-demo2, lab7, nano.save, path-examples, perl5, skill-demo1-data,
+skill-demo1-server, wavelet
+```
+
+
+
+
+
