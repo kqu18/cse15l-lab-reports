@@ -135,7 +135,10 @@ grader-skill-demo2, lab7, nano.save, path-examples, perl5, skill-demo1-data,
 skill-demo1-server, wavelet
 ```
 
+---
+## conclusion
 
+with the commands listed above, we are now fully prepared to use ls with various different tools to help us specify order, information, or format. 
 
 
 
